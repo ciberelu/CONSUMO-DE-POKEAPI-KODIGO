@@ -1,0 +1,38 @@
+.pokemon{
+    background-color: rgb(231, 231, 230);
+    width: 240px;
+    height: 280px;
+    padding: 20px 16px;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    transition: 100ms;
+}
+
+.pokemon:hover{
+    transform: rotate(-5deg) translateY(-20px);
+    background-color: greenyellow;
+}
+
+.pokemon__img__contenedor{
+    
+    border-radius: 12px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: auto;
+}
+.pokemon__img{
+    width: 150px;
+
+}
+
+.pokemon__name{
+
+    text-transform:uppercase;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
